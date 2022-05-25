@@ -15,7 +15,7 @@ id char(4) primary key,
 nombre nvarchar(100)
 );
 
-intert into proveedores(id, nombre) values ('a1', "Michelin");
+insert into proveedores(id, nombre) values ('a1', "Michelin");
 
 create table suministra(
 id int not null auto_increment primary key,
